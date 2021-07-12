@@ -6,6 +6,7 @@ Revision history for {{$dist->name}}
     - Syntax::Keyword::Match is now imported in Myriad::Service code
     - Redis: A service will not create another service's stream.
     - Allow services namespaces by adding '::*' to the startup command.
+    - RPC on start handle existing pending messages in stream, if not expired.
 
 0.008     2021-06-18 05:24:31+00:00 UTC
     [API Changes]
