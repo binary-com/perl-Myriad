@@ -1,0 +1,11 @@
+transport: value_from_file
+
+services:
+    fake.name:
+        configs:
+            key: value from file
+        instances:
+            demo:
+                configs:
+                    key: instance value from file
+
